@@ -1,0 +1,26 @@
+PODS:
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - DropDown (2.3.13)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - DGCharts
+  - DropDown
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - DropDown
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: d42fe20a301418a89d737b2bc27b64c936d6a0f1
+
+COCOAPODS: 1.16.2

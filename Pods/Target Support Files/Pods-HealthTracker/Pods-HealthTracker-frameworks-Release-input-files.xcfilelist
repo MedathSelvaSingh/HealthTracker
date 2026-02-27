@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-HealthTracker/Pods-HealthTracker-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DGCharts/DGCharts.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
