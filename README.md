@@ -52,3 +52,33 @@ This project follows the **MVC (Model-View-Controller)** pattern.
 - **CocoaPods** – Dependency management.
 
 ---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/MedathSelvaSingh/HealthTracker.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd HealthTracker
+```
+
+3. Install dependencies:
+
+```bash
+pod install
+```
+
+4. Open the workspace file:
+
+```
+HealthTracker.xcworkspace
+```
+
+5. Build & Run using Xcode 15+ (iOS 16+ recommended)
+
+---
