@@ -1,36 +1,54 @@
 # HealthTracker
 
-HealthTracker is an iOS application that allows users to record and visualize health-related data, such as
-steps, heart rate, and other custom stats.
+HealthTracker is an iOS application built using UIKit that allows users to record and visualize health-related data such as steps, heart rate, sleep, blood pressure, and other custom metrics.
+
+The app focuses on clean UI design, structured architecture, and clear data visualization.
 
 ---
 
 ## 📌 Architecture
 
-This project follows the **MVC (Model-View-Controller)** pattern:
+This project follows the **MVC (Model-View-Controller)** pattern.
 
-- **Model**: Data structures — storing health entry data.
-- **View**: Programmatical and UI components — screens and charts.
-- **Controller**: View controllers handling UI logic & updating models.
+### 🔹 Model
+- Represents health data structures.
+- Stores and manages metric-related information.
 
-MVC helps to separate UI logic from data logic, and is widely used in UIKit-based iOS apps.
+### 🔹 View
+- Built completely using **Programmatic UIKit** (no Storyboards).
+- Custom UI components and chart views.
+- Responsible only for layout and presentation.
+
+### 🔹 Controller
+- ViewControllers manage:
+  - User interactions
+  - Filtering logic
+  - Chart updates
+  - UI state handling
+
+### ✅ Why MVC?
+
+- Simple and effective for UIKit-based apps.
+- Clear separation between UI and data.
+- Easy to understand and maintain.
 
 ---
 
 ## 🧠 Design Decisions
 
-- **MVC pattern**
-- **Programmatic / UIKit** for UI.
-- Used CocoaPods for dependency management.
-- Clean separation of view logic and data handling in controllers.
+- Used **Programmatic UI** for better layout control and reusability.
+- Followed MVC for clear responsibility separation.
+- Created reusable UI components.
+- Avoided force unwrapping to improve safety.
+- Structured filtering and chart logic clearly inside controllers.
 
 ---
 
 ## 📦 Libraries / Tools Used
 
-- **DGCharts** — for graph visualization.
-- **Dropdown** — for selections.
-- **Toast-Swift** — for toast messages.
-- **CocoaPods** — for managing third-party libraries.
-  ```bash
-  pod install
+- **DGCharts** – For health metric graph visualization.
+- **DropDown** – For dropdown selection UI.
+- **Toast-Swift** – For toast messages.
+- **CocoaPods** – Dependency management.
+
+---
