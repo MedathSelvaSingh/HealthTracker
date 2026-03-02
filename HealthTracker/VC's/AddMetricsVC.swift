@@ -163,6 +163,7 @@ extension AddMetricsVC{
     @objc func handleSave(){
         if currentMetric != "" && selectedRange != 0{
             CoreDataHelp.addOrUpdateMetric(type:currentMetric, value: Double(selectedRange), date: selDate ?? Date())
+            self.makeToast(strMessage: "\(currentMetric) added successfully.")
         }else{
             self.makeToast(strMessage: "Select metric or metric value")
         }
